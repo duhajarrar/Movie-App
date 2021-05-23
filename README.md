@@ -1,2 +1,3 @@
 # Movie-App
-android studio application 
+Android Studio Application, the following Video shows its features
+
