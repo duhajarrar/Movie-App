@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingTop="130dp"
+    tools:context=".LoginFragment"
+    tools:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textPersonName"
+                android:paddingVertical="10sp" />
+
+            <EditText
+                android:id="@+id/password_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingVertical="10sp" />
+
+            <CheckBox
+                android:id="@+id/remember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remember Me" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:background="#B93F8D97"
+                android:paddingVertical="10sp"
+                android:text="Log in"
+                android:textColor="#F5F6FA" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/email_side"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10sp"
+                android:text="Don't have an account?"
+                android:textAlignment="center"
+                android:textColor="#B93F8D97"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gotosignup"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:paddingVertical="10sp"
+                android:shadowColor="#B93F8D97"
+                android:text="sign up"
+                android:textColor="#B93F8D97" />
+
+            <Switch
+                android:id="@+id/mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="Dark Mode" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

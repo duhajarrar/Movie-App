@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.birzeit.projectMovies.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_movie_menu"
+        android:name="edu.birzeit.projectMovies.ui.moviemenu.MovieMenuFragment"
+        android:label="Movie List"
+        tools:layout="@layout/fragment_movie_menu">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_watched_movie"
+        android:name="edu.birzeit.projectMovies.ui.watches.WatchesMovieFragment"
+        android:label="My Watched List"
+        tools:layout="@layout/fragment_watches_movies">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_rated_movies"
+        android:name="edu.birzeit.projectMovies.ui.rates.RatesMoviesFragment"
+        android:label="My Rated List"
+        tools:layout="@layout/fragment_rates_movies">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="edu.birzeit.projectMovies.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_call_us"
+        android:name="edu.birzeit.projectMovies.ui.contact.ContactFragment"
+        android:label="@string/call_us"
+        tools:layout="@layout/fragment_contact">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="edu.birzeit.projectMovies.ui.logout.LogoutFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_login">
+    </fragment>
+
+</navigation>

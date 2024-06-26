@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_movie_menu"
+            android:icon="@drawable/cinema"
+            android:title="Movie List" />
+        <item
+            android:id="@+id/nav_watched_movie"
+            android:icon="@drawable/video11"
+            android:title="My Watched List" />
+        <item
+            android:id="@+id/nav_rated_movies"
+            android:icon="@android:drawable/star_big_off"
+            android:title="My Rated List" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_call_us"
+            android:icon="@drawable/letter"
+            android:title="Contact With Us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>
